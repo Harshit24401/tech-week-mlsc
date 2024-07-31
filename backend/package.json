@@ -5,12 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon scraper.js"
   },
   "author": "Harshit Arora",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
